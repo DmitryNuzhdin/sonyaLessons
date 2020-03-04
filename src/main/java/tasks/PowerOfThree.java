@@ -2,10 +2,17 @@ package tasks;
 
 public class PowerOfThree {
     public static boolean powerOfThree(int a) {
-        /*
-        метод должен вернуть ответ - является -ли заданое число (a) степенью тройки
-        кстати в своем коде a можно юзать как любую другую переменную (ее можно менять)
-         */
+        int c = a;
+        if ( a != 0) {
+            while (c % 3 == 0) {
+                System.out.println(c);
+                c = c / 3;
+            }
+
+            if (c == 1) {
+                return true;
+            }
+        }
         return false;
     }
 

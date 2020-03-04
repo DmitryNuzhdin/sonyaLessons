@@ -9,13 +9,12 @@ public class FirstClass {
         } else {
             a = 3;
         }
-//        System.out.println("Ответ:");
-//        System.out.println(a + 1);
+//        System.out.print("Ответ: ");
+//        System.out.print(a + 1);
 
 //      В промежутке от 0 до 20 (включительно) выдать только те числа, которые делятся на 3
         for (int i=0; i<=20; i++) {
             if (i % 3 == 0) {
-//                System.out.println("Ответ:");
 //                System.out.println(i);
             }
         }

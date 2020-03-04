@@ -1,7 +1,5 @@
 package tasks;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class GreatestCommonDivisor {
     public static int gcd(int a, int b) {
 
@@ -13,7 +11,7 @@ public class GreatestCommonDivisor {
         return 1;
     }
 
-        public static void main(String[] args) {
-            System.out.println(gcd(14, 14));
-        }
+    public static void main(String[] args) {
+        System.out.println(gcd(14, 14));
     }
+}
